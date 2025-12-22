@@ -16,7 +16,7 @@ export default function Timeline() {
             <h3 className="text-xl font-semibold mt-1">{item.title}</h3>
             <p className="text-gray-700 mt-1">{item.description}</p>
 
-            {/* Toggle image/details */}
+            
             <button
               onClick={() =>
                 setOpenIndex(index === openIndex ? null : index)
