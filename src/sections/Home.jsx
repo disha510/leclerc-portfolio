@@ -13,7 +13,7 @@ export default function Home() {
         />
       </div>
       <div className="relative z-10 text-center text white px-4 max-w-3xl">
-      <h1 className="text-5xl md:text-6xl font-bold text-red-600 drop-shadow-xl fade-in">
+      <h1>className="text-5xl md:text-6xl font-bold text-red-600 drop-shadow-xl fade-in"</h1>
       Charles Leclerc
       <p className="text-xl md:text-2xl mt-4 italic text-white drop-shadow-md fade-in delay-300">
       "Every race is a chance to push limits."
