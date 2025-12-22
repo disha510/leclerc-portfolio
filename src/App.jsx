@@ -10,7 +10,7 @@ function App() {
     <div>
       <Navbar/>
       <Home />
-      <Timeline />
+      <Timeline/>
       <Career />
       <Stats />
       <Media />
