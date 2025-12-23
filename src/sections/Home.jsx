@@ -6,8 +6,8 @@ export default function Home() {
       <div className="absolute inset-0 opacity-80">
       <iframe 
         className="w-full h-full object-cover" 
-      src= "https://www.youtube.com/embed/MzKfOvZxNko?autoplay=1&mute=1&loop=1&playlist=MzKfOvZxNko"
-        frameBorder="0" 
+      src= "https://www.youtube.com/embed/ygxT9Vs8Vr0?autoplay=1&mute=1&loop=1&playlist=ygxT9Vs8Vr0"
+        
       allow="autoplay;encrypted-media;picture-in-picture"
         allowFullScreen
         />
@@ -18,27 +18,8 @@ export default function Home() {
       <p className="text-xl md:text-2xl mt-4 italic text-white drop-shadow-md fade-in delay-300">
       "Every race is a chance to push limits."
       </p>
-      <a
-        href="#timeline"
-        className="mt-6 inline-block bg-red-600 px-6 py-3 rounded hover:bg-red-700 transition-colors fade-in delay-500"
-        >
-      See Career Timeline 
-      </a>
-      </div>
-        <style>
-          {`
-          @keyframes fadeIn{
-          from{ opacity:0; transform:translateY(20px);}
-          to{opacity:1;transform:translateY(0);}
-          }
-          .fade-in{
-          animation:fadeIn 1s ease forwards;
-          }
-          .delay-300{animation-delay:0.3s;}
-          .delay-500{animation-delay:0.5s;}
-          `}
-        </style>
+      </div>  
       </section>
-      );
+      )
 }
 
